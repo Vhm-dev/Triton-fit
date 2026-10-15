@@ -1,0 +1,18 @@
+IMPORTADOR DE GIFS — TRITON FIT
+
+Requisitos: Python 3.10+ e Pillow (pip install pillow).
+
+1) Coloque o ZIP com os GIFs na mesma pasta do importar.py.
+2) Execute:
+   python importar.py "meus-gifs.zip"
+   Isso valida as animacoes e gera um site com cadastros, SEM republicar as midias.
+3) Quando tiver permissao de redistribuicao, execute:
+   python importar.py "meus-gifs.zip" --publicar-gifs
+4) Extraia triton-fit-atualizado.zip e envie os ARQUIVOS DE DENTRO
+   para a raiz do repositorio GitHub vhm-dev/Triton-fit, substituindo index.html
+   e exercises.js e incluindo importados.js e assets/gifs quando houver.
+5) Aguarde o GitHub Pages atualizar e teste as paginas.
+
+Importante: o importador nao baixa nem coleta conteudo do site de terceiros.
+Os nomes e grupos musculares sao inferidos; revise os cadastros e a tecnica.
+Se executar novamente, substitua importados.js; nao acumule importacoes antigas.
